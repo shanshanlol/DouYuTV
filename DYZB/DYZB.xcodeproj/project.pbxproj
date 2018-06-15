@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D527EF4620D3B73E00AD03CA /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = D527EF4520D3B73E00AD03CA /* Classes */; };
 		D5D2188120D1600A004CAECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D2188020D1600A004CAECC /* AppDelegate.swift */; };
 		D5D2188620D1600A004CAECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2188420D1600A004CAECC /* Main.storyboard */; };
 		D5D2188820D1600B004CAECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D2188720D1600B004CAECC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D527EF4520D3B73E00AD03CA /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		D5D2187D20D1600A004CAECC /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D2188020D1600A004CAECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D2188520D1600A004CAECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +31,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5C155EE20D3BAE600D4F687 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5C155EF20D3BAE600D4F687 /* Home */,
+				D5C155F020D3BAE600D4F687 /* Tools */,
+				D5C155F120D3BAE600D4F687 /* Follow */,
+				D5C155F220D3BAE600D4F687 /* Profile */,
+				D5C155F320D3BAE600D4F687 /* Live */,
+				D5C155F420D3BAE600D4F687 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D5C155EF20D3BAE600D4F687 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D5C155F020D3BAE600D4F687 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D5C155F120D3BAE600D4F687 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		D5C155F220D3BAE600D4F687 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D5C155F320D3BAE600D4F687 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D5C155F420D3BAE600D4F687 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		D5D2187420D1600A004CAECC = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +105,7 @@
 		D5D2187F20D1600A004CAECC /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
-				D527EF4520D3B73E00AD03CA /* Classes */,
+				D5C155EE20D3BAE600D4F687 /* Classes */,
 				D5D2188020D1600A004CAECC /* AppDelegate.swift */,
 				D5D2188420D1600A004CAECC /* Main.storyboard */,
 				D5D2188720D1600B004CAECC /* Assets.xcassets */,
@@ -119,7 +172,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D527EF4620D3B73E00AD03CA /* Classes in Resources */,
 				D5D2188820D1600B004CAECC /* Assets.xcassets in Resources */,
 				D5D2188620D1600A004CAECC /* Main.storyboard in Resources */,
 			);
