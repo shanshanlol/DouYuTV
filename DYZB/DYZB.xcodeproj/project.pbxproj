@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5C155F620D3C06E00D4F687 /* 首页.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C155F520D3C06E00D4F687 /* 首页.storyboard */; };
+		D5C155F820D3C0A900D4F687 /* 直播.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C155F720D3C0A900D4F687 /* 直播.storyboard */; };
+		D5C155FA20D3C0BE00D4F687 /* 关注.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C155F920D3C0BE00D4F687 /* 关注.storyboard */; };
+		D5C155FC20D3C0D600D4F687 /* 我的.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C155FB20D3C0D600D4F687 /* 我的.storyboard */; };
+		D5C155FE20D3C21D00D4F687 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C155FD20D3C21D00D4F687 /* MainViewController.swift */; };
 		D5D2188120D1600A004CAECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D2188020D1600A004CAECC /* AppDelegate.swift */; };
 		D5D2188620D1600A004CAECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2188420D1600A004CAECC /* Main.storyboard */; };
 		D5D2188820D1600B004CAECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D2188720D1600B004CAECC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5C155F520D3C06E00D4F687 /* 首页.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "首页.storyboard"; sourceTree = "<group>"; };
+		D5C155F720D3C0A900D4F687 /* 直播.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "直播.storyboard"; sourceTree = "<group>"; };
+		D5C155F920D3C0BE00D4F687 /* 关注.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "关注.storyboard"; sourceTree = "<group>"; };
+		D5C155FB20D3C0D600D4F687 /* 我的.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "我的.storyboard"; sourceTree = "<group>"; };
+		D5C155FD20D3C21D00D4F687 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D5D2187D20D1600A004CAECC /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D2188020D1600A004CAECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D2188520D1600A004CAECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,7 @@
 		D5C155EF20D3BAE600D4F687 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D5C155F520D3C06E00D4F687 /* 首页.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -61,6 +72,7 @@
 		D5C155F120D3BAE600D4F687 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				D5C155F920D3C0BE00D4F687 /* 关注.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -68,6 +80,7 @@
 		D5C155F220D3BAE600D4F687 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D5C155FB20D3C0D600D4F687 /* 我的.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -75,6 +88,7 @@
 		D5C155F320D3BAE600D4F687 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				D5C155F720D3C0A900D4F687 /* 直播.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -82,6 +96,8 @@
 		D5C155F420D3BAE600D4F687 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D5D2188420D1600A004CAECC /* Main.storyboard */,
+				D5C155FD20D3C21D00D4F687 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -107,7 +123,6 @@
 			children = (
 				D5C155EE20D3BAE600D4F687 /* Classes */,
 				D5D2188020D1600A004CAECC /* AppDelegate.swift */,
-				D5D2188420D1600A004CAECC /* Main.storyboard */,
 				D5D2188720D1600B004CAECC /* Assets.xcassets */,
 				D5D2188C20D1600B004CAECC /* Info.plist */,
 			);
@@ -172,8 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C155F620D3C06E00D4F687 /* 首页.storyboard in Resources */,
+				D5C155F820D3C0A900D4F687 /* 直播.storyboard in Resources */,
+				D5C155FA20D3C0BE00D4F687 /* 关注.storyboard in Resources */,
 				D5D2188820D1600B004CAECC /* Assets.xcassets in Resources */,
 				D5D2188620D1600A004CAECC /* Main.storyboard in Resources */,
+				D5C155FC20D3C0D600D4F687 /* 我的.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5D2188120D1600A004CAECC /* AppDelegate.swift in Sources */,
+				D5C155FE20D3C21D00D4F687 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanshanlol.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanshanlol.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
