@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D527EF4620D3B73E00AD03CA /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = D527EF4520D3B73E00AD03CA /* Classes */; };
 		D5D2188120D1600A004CAECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D2188020D1600A004CAECC /* AppDelegate.swift */; };
-		D5D2188320D1600A004CAECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D2188220D1600A004CAECC /* ViewController.swift */; };
 		D5D2188620D1600A004CAECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2188420D1600A004CAECC /* Main.storyboard */; };
 		D5D2188820D1600B004CAECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D2188720D1600B004CAECC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D527EF4520D3B73E00AD03CA /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		D5D2187D20D1600A004CAECC /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D2188020D1600A004CAECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5D2188220D1600A004CAECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5D2188520D1600A004CAECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5D2188720D1600B004CAECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D2188C20D1600B004CAECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 		D5D2187F20D1600A004CAECC /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				D527EF4520D3B73E00AD03CA /* Classes */,
 				D5D2188020D1600A004CAECC /* AppDelegate.swift */,
-				D5D2188220D1600A004CAECC /* ViewController.swift */,
 				D5D2188420D1600A004CAECC /* Main.storyboard */,
 				D5D2188720D1600B004CAECC /* Assets.xcassets */,
 				D5D2188C20D1600B004CAECC /* Info.plist */,
@@ -119,6 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D527EF4620D3B73E00AD03CA /* Classes in Resources */,
 				D5D2188820D1600B004CAECC /* Assets.xcassets in Resources */,
 				D5D2188620D1600A004CAECC /* Main.storyboard in Resources */,
 			);
@@ -131,7 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D2188320D1600A004CAECC /* ViewController.swift in Sources */,
 				D5D2188120D1600A004CAECC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
